@@ -96,7 +96,7 @@ android {
             resValue "string", "provider_authority", "de.danoeh.antennapod.provider"
             minifyEnabled true
             proguardFile "proguard.cfg"
-            signingConfig signingConfigs.releaseConfig
+            signingConfig signingConfigs.debug
             buildConfigField STRING, FLATTR_APP_KEY, mFlattrAppKey
             buildConfigField STRING, FLATTR_APP_SECRET, mFlattrAppSecret
         }
